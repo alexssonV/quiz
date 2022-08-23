@@ -51,7 +51,6 @@ const optionC = document.getElementById('label-c');
 const optionD = document.getElementById('label-d');
 const submit = document.getElementById('submit');
 const allOptions = document.querySelectorAll('.options');
-
 let questionNumber = 0;
 let score = 0;
 
@@ -71,7 +70,7 @@ function quiz() {
 
 quiz(); // Initial Call of the Quiz
 
-// Function to store answer value when checked
+// Function to store and return answer value when checked
 
 function getAnswer() {
 
